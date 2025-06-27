@@ -2,6 +2,8 @@
 
 ConnectSphere is a full-stack social media application built with the MERN stack (MongoDB, Express, React, Node.js). It features user authentication, posts, likes, friend management, and a responsive UI with dark mode support.
 
+---
+
 ## Features
 
 - **User Authentication:** Register and log in securely with JWT. Profile picture upload supported.
@@ -15,6 +17,8 @@ ConnectSphere is a full-stack social media application built with the MERN stack
   - **Backend:** Node.js, Express
   - **Database:** MongoDB, Mongoose
   - **Other:** JWT for authentication, Multer for file uploads
+ 
+---
 
 ## Folder Structure
 
@@ -38,6 +42,7 @@ ConnectSphere-project/
 │
 └── README.md         # Project documentation
 ```
+---
 
 ## Getting Started
 
@@ -83,6 +88,8 @@ ConnectSphere-project/
    ```
    The app runs on `http://localhost:3000`.
 
+---
+
 ## Usage
 
 - Register a new account or log in.
@@ -90,11 +97,14 @@ ConnectSphere-project/
 - Toggle dark/light mode from the navbar.
 - View your profile and others’ profiles.
 
+---
+
 ## Development Notes
 
 - API endpoints are protected with JWT. Attach the token in the `Authorization` header as `Bearer <token>`.
 - Images are uploaded and served from `server/public/assets`.
 - To seed the database with sample users and posts, uncomment the `insertMany` lines in [`server/index.js`](server/index.js) and restart the server once.
+---
 
 ## License
 
